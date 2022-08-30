@@ -194,6 +194,13 @@ def LineUp():
 class SlowtypeExamples:
 
     def ProgressbarExample():
+        """
+        
+        Progress bar example
+        Progress: #_________ [10%]
+        
+        """
+
         Progress = 0
 
         while Progress < 20:
@@ -208,6 +215,13 @@ class SlowtypeExamples:
         print('\n')
 
     def PasswordHackerExample():
+        """
+        
+        Password hacker example
+        ABCDEABCDE | INVALID
+        
+        """
+
         print('Password hacker\n')
 
         while True:
