@@ -4,7 +4,7 @@
 SlowTypes.SlowType()
 ```
 ### - Default SlowType module function.
-### Next:
+### _______________________
 ```python
 SlowTypes.SlowType_DelayRandom()
 ```
@@ -13,43 +13,43 @@ SlowTypes.SlowType_DelayRandom()
 ```python
 SlowTypes.SlowType_UsingDelayGenerator(..., lambda x, y: random.uniform(0.1, 0.2))
 ```
-### Next:
+### _______________________
 ```python
 SlowTypes.SlowType_UsingDelayGenerator()
 ```
 ### - Using function to get delay
 ### - DelayGenerators (or user custom)
-### Next:
+### _______________________
 ```python
 SlowtypeExamples.ProgressBarExample()
 ```
-### Next:
+### _______________________
 ### - Progress bar example
 ```python
 SlowtypeExamples.PasswordHackerExample()
 ```
-### Next:
+### _______________________
 ### - Password hacker example
 ```python
 DelayGenerators.Faster()
 ```
 ### - Makes type faster after next char
-### Next:
+### _______________________
 ```python
 DelayGenerators.Slower()
 ```
 ### - Makes type slower after next char
-### Next:
+### _______________________
 ```python
 DelayGenerators.PrintSleep(x, y)
 ```
 ### - Prints X chars and waiting Y seconds
-### Next:
+### _______________________
 ```python
 PrintOnLine()
 ```
 ### - Print a text on line, where cursor is
-### Next:
+### _______________________
 ```python
 ClearLine()
 ```
@@ -60,7 +60,7 @@ ClearLine()
 SlowTypes.SlowType()
 ```
 ### - Default SlowType module function.
-### Next:
+### _______________________
 ```python
 SlowTypes.SlowType_DelayRandom()
 ```
@@ -69,47 +69,47 @@ SlowTypes.SlowType_DelayRandom()
 ```python
 SlowTypes.SlowType_UsingDelayGenerator(..., lambda x, y: random.uniform(0.1, 0.2))
 ```
-### Next:
+### _______________________
 ```python
 SlowTypes.SlowType_UsingDelayGenerator()
 ```
 ### - Using function to get delay
 ### - DelayGenerators (or user custom)
-### Next:
+### _______________________
 ```python
 SlowtypeExamples.ProgressBarExample()
 ```
 ### - Progress bar example
-### Next:
+### _______________________
 ```python
 SlowtypeExamples.PasswordHackerExample()
 ```
 ### - Password hacker example
-### Next:
+### _______________________
 ```python
 DelayGenerators.Faster()
 ```
 ### - Makes type faster after next char
-### Next:
+### _______________________
 ```python
 DelayGenerators.Slower()
 ```
 ### - Makes type slower after next char
-### Next:
+### _______________________
 ```python
 DelayGenerators.PrintSleep(x, y)
 ```
 ### - Prints X chars and waiting Y seconds
-### Next:
+### _______________________
 ```python
 PrintOnLine()
 ```
 ### - Print a text on line, where cursor is
-### Next:
+### _______________________
 ```python
 ClearLine()
 ```
-### Next:
+### _______________________
 ### - Clear line, where cursor
 ```python
 LineUp()
