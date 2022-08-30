@@ -1,4 +1,4 @@
-# SlowType - Python type-print module
+# SlowType - Small python library for type-effect
 ## All functions and classes
 ```python
 SlowTypes.SlowType()
@@ -28,8 +28,8 @@ SlowtypeExamples.ProgressBarExample()
 ```python
 SlowtypeExamples.PasswordHackerExample()
 ```
-### - Password hacker example
 ### _______________________
+### - Password hacker example
 ```python
 DelayGenerators.Faster()
 ```
@@ -109,8 +109,8 @@ PrintOnLine()
 ```python
 ClearLine()
 ```
-### - Clear line, where cursor
 ### _______________________
+### - Clear line, where cursor
 ```python
 LineUp()
 ```
@@ -124,8 +124,18 @@ text = SlowTypes.SlowType('What is your name?: ', 0.1, True)
 ```python
 SlowTypes.SlowType_UsingDelayGenerator('Just a big string... ' * 5, DelayGenerators.Faster, 10)
 ```
+#### Translated by google translate!
 ```python
 LineUp()
 ```
 ### - Moving cursor up
+## Examples
+### Example of slow type with input:
+```python
+text = SlowTypes.SlowType('What is your name?: ', 0.1, True)
+```
+### Example of using SlowTypes.SlowType_UsingDelayGenerator
+```python
+SlowTypes.SlowType_UsingDelayGenerator('Just a big string... ' * 5, DelayGenerators.Faster, 10)
+```
 #### Translated by google translate!
