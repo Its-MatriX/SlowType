@@ -124,8 +124,8 @@ text = SlowTypes.SlowType('What is your name?: ', 0.1, True)
 ```python
 SlowTypes.SlowType_UsingDelayGenerator('Just a big string... ' * 5, DelayGenerators.Faster, 10)
 ```
-#### Translated by google translate!
 ```python
 LineUp()
 ```
 ### - Moving cursor up
+#### Translated by google translate!
