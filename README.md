@@ -27,7 +27,7 @@
 #### - Moving cursor up
 ## Examples
 ### Example of slow type with input:
-#### text = SlowTypes.SlowType('What is your name?: ', 0.1, True)
+```text = SlowTypes.SlowType('What is your name?: ', 0.1, True)```
 ### Example of using SlowTypes.SlowType_UsingDelayGenerator
-#### SlowTypes.SlowType_UsingDelayGenerator('Just a big string... ' * 5, DelayGenerators.Faster, 10)
+```SlowTypes.SlowType_UsingDelayGenerator('Just a big string... ' * 5, DelayGenerators.Faster, 10)```
 ##### Translated by google translate!
