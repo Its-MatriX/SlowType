@@ -109,8 +109,8 @@ PrintOnLine()
 ```python
 ClearLine()
 ```
-### _______________________
 ### - Clear line, where cursor
+### _______________________
 ```python
 LineUp()
 ```
