@@ -23,8 +23,8 @@ SlowTypes.SlowType_UsingDelayGenerator()
 ```python
 SlowtypeExamples.ProgressBarExample()
 ```
-### _______________________
 ### - Progress bar example
+### _______________________
 ```python
 SlowtypeExamples.PasswordHackerExample()
 ```
