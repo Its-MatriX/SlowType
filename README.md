@@ -109,8 +109,27 @@ PrintOnLine()
 ```python
 ClearLine()
 ```
-### _______________________
 ### - Clear line, where cursor
+### _______________________
+```python
+LineUp()
+```
+### - Moving cursor up
+### _______________________
+```python
+ProgressBar()
+```
+### - Progressbar (scroll down for examples)
+### _______________________
+## Examples
+### Example of slow type with input:
+```python
+text = SlowTypes.SlowType('What is your name?: ', 0.1, True)
+```
+### Example of using SlowTypes.SlowType_UsingDelayGenerator
+```python
+SlowTypes.SlowType_UsingDelayGenerator('Just a big string... ' * 5, DelayGenerators.Faster, 10)
+```
 ```python
 LineUp()
 ```
@@ -124,18 +143,46 @@ text = SlowTypes.SlowType('What is your name?: ', 0.1, True)
 ```python
 SlowTypes.SlowType_UsingDelayGenerator('Just a big string... ' * 5, DelayGenerators.Faster, 10)
 ```
-#### Translated by google translate!
+## 0.2 - Progressbars!
+### Example of progressbar
 ```python
-LineUp()
+from time import sleep
+
+# Initializing ProgressBar
+# (ProgressBar dont shows on initializing)
+LoadingProgress = ProgressBar(0, 100, 'Loading... ?pbar? ?value?%/?max?', '+', '-', 20)
+
+# Loading... (ProgressBar(Min, Max).SetValue(Value))
+for x in range(1, 101):
+    LoadingProgress.SetValue(x)
+    sleep(.01)
+
+# Return:
+# Loading... ++++++-------------- 30%/100
+
+# ?pbar? - Progress Bar
+# ?value? - Value
+# ?min? - Minimal
+# ?max? - Maximal
+# ?donechar? - Char on done
+# ?ndonechar? - Not done char
+
+LoadingProgress.FinishProgressBar()
 ```
-### - Moving cursor up
-## Examples
-### Example of slow type with input:
+
 ```python
-text = SlowTypes.SlowType('What is your name?: ', 0.1, True)
-```
-### Example of using SlowTypes.SlowType_UsingDelayGenerator
-```python
-SlowTypes.SlowType_UsingDelayGenerator('Just a big string... ' * 5, DelayGenerators.Faster, 10)
+ProgressBar(
+    1,
+    100,
+    LineLength=10,
+    Message = 'Loading...',
+    CharOnDone = '+',
+    CharOnNotDone = '_',
+    PercentsPattern='(?p/100)').SetValue(40)
+
+# Output:
+# Loading... ++++______ (40/100)
+
+# ?p in PercentsPattern is value
 ```
 #### Translated by google translate!
